@@ -6,6 +6,7 @@ public class Main {
         EmployeeFacade employeeFacade=new EmployeeFacade();
         employeeFacade.cook();
         employeeFacade.cleanFloor();
+        employeeFacade.getSalarys();
 
     }
 }

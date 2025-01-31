@@ -6,7 +6,7 @@ public class Toyta implements Car{
         System.out.println("get passangers");
     }
     @Override
-    public void workInTaxi() {
+    public void workInTaxis() {
         getPassangers();
     }
 }

@@ -1,6 +1,6 @@
 package S;
 
-public class EmployeeFacade {
+public class EmployeeFacade implements Employee{
     Cook cook=new Cook();
     Junitor junitor=new Junitor();
     void cook(){
@@ -8,5 +8,10 @@ public class EmployeeFacade {
     }
     void cleanFloor(){
         junitor.cleanFloor();
+    }
+
+    @Override
+    public int getSalarys() {
+        return 10;
     }
 }

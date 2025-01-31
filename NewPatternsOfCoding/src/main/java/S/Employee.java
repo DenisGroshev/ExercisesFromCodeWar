@@ -1,5 +1,5 @@
 package S;
 
 interface Employee {
-    int getSalary();
+    int getSalarys();
 }

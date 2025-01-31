@@ -12,6 +12,6 @@ public class Main {
 
     }
     static void workInTaxi(Car car) {
-        car.workInTaxi();
+        car.workInTaxis();
     }
 }

@@ -6,7 +6,7 @@ public class Junitor implements Employee {
     }
 
     @Override
-    public int getSalary() {
+    public int getSalarys() {
         return 10;
     }
 }

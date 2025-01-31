@@ -5,7 +5,7 @@ public class Celica2012 extends Toyta{
         System.out.println("get two passangers");
     }
     @Override
-    public void workInTaxi(){
+    public void workInTaxis(){
         getPassangers();
     }
 }

@@ -6,7 +6,7 @@ public class Celica extends Toyta{
     }
 
     @Override
-    public void workInTaxi() {
+    public void workInTaxis() {
         getPassanger();
     }
 }

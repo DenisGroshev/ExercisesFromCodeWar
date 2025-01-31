@@ -6,7 +6,7 @@ public class Cook implements Employee {
     }
 
     @Override
-    public int getSalary() {
+    public int getSalarys() {
         return 1;
     }
 }
