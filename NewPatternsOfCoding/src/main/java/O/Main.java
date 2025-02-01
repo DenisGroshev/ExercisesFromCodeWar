@@ -6,9 +6,9 @@ public class Main {
         Celica celica=new Celica();
         Celica2012 celica2012=new Celica2012();
 
-        toyta.workInTaxi();
-        celica.workInTaxi();
-        celica2012.workInTaxi();
+        toyta.workInTaxis();
+        celica.workInTaxis();
+        celica2012.workInTaxis();
 
     }
     static void workInTaxi(Car car) {
